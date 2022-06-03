@@ -1,0 +1,94 @@
+.header-content {
+    margin-top: 0px;
+  }
+
+.header__menu{
+    display: none;
+}
+
+@media (min-width: 1500px) {
+  .header__menu{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    margin-top: -45px;
+    color: #dbdbdb;
+  }
+}
+
+@media (min-width: 1500px) {
+  .contenido__cerraduras{
+    margin-left: 30%;
+  }
+}
+
+.header {
+    background-color: #161B22;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.header_burger_img{
+    width: 65px;
+}
+
+@media (min-width: 1500px) {
+  .header_burger_img{
+    display: none;
+  }
+}
+
+.header_titulo{
+    color: #F0F6FC;
+    font-size: 120%;
+    margin-left: 2%;
+    
+}
+
+.header__ventana{
+    background-color: #161B22;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: flex-end;
+    display: none;
+}
+
+.header__ventana__contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 70px;
+}
+
+.header__ventana-cierra-b {
+    position: absolute;
+    right: 10px;
+    background-color: #161B22;
+    width: 50px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 20px;
+    border: hidden;
+    color: #dbdbdb;
+  }
+
+  .contenido__cerraduras,
+  .contenido__candados,
+  .contenido__cerrojos,
+  .contenido__herrajes,
+  .contenido__llaveros_c,
+  .contenido__llaveros_l,
+  .contenido__pasadores{
+  text-decoration: none;
+      color: #dbdbdb;
+      font-weight: 700;
+    font-size: 20px;
+  }

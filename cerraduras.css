@@ -1,0 +1,281 @@
+body{
+    background-color: #161B22;
+}
+
+.container_acytra,
+.container_bronzen,
+.container_candex,
+.container_dac,
+.container_escritorio,
+.container_giaco,
+.container_kallay,
+.container_prive,
+.container_sekur,
+.container_th,
+.container_trabex{
+    width: 295px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border: solid #fafafa;
+}
+
+@media (min-width: 1440px) {
+    .container_acytra{
+      display: flex;
+      flex-direction: row;
+      margin: 0 auto;
+      margin-top: 40px;
+      width: 600px;
+      height: 280px;
+    }
+  }
+@media (min-width: 1440px) {
+    .container_bronzen{
+      display: flex;
+      flex-direction: row;
+      margin: 0 auto;
+      margin-top: 40px;
+      width: 1200px;
+      height: 280px;
+    }
+  }
+@media (min-width: 1440px) {
+    .container_candex{
+      display: flex;
+      flex-direction: row;
+      margin: 0 auto;
+      margin-top: 40px;
+      width: 1100px;
+      height: 280px;
+    }
+  }
+@media (min-width: 1440px) {
+    .container_dac{
+      display: flex;
+      flex-direction: row;
+      margin: 0 auto;
+      margin-top: 40px;
+      width: 1100px;
+      height: 280px;
+    }
+  }
+
+
+@media (min-width: 1440px) {
+    .container_escritorio{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        margin: 0 auto;
+        margin-top: 40px;
+        width: 1000px;
+        height: 1000px;
+    }
+  }
+@media (min-width: 1440px) {
+    .container_giaco{
+      display: flex;
+      flex-direction: row;
+      margin: 0 auto;
+      margin-top: 40px;
+      width: 1100px;
+      height: 280px;
+    }
+  }
+@media (min-width: 1440px) {
+    .container_kallay{
+      display: flex;
+      flex-direction: row;
+      margin: 0 auto;
+      margin-top: 40px;
+      width: 1100px;
+      height: 280px;
+    }
+  }
+@media (min-width: 1440px) {
+    .container_prive{
+      display: grid;
+      grid-template-columns: auto auto auto;
+      margin: 0 auto;
+      margin-top: 40px;
+      width: 1000px;
+      height: 2000px;
+    }
+  }
+@media (min-width: 1440px) {
+    .container_sekur{
+      display: flex;
+      flex-direction: row;
+      margin: 0 auto;
+      margin-top: 40px;
+      width: 600px;
+      height: 280px;
+    }
+  }
+@media (min-width: 1440px) {
+    .container_th{
+      display: flex;
+      flex-direction: row;
+      margin: 0 auto;
+      margin-top: 40px;
+      width: 800px;
+      height: 280px;
+    }
+  }
+@media (min-width: 1440px) {
+    .container_trabex{
+      display: grid;
+      grid-template-columns:auto auto auto auto;
+      margin: 0 auto;
+      margin-top: 40px;
+      width: 1000px;
+      height: 700px;
+    }
+  }
+
+
+
+
+
+  @media (min-width: 1440px) {
+    .titulo1{
+        margin-left: -180px;
+    }
+  }
+  @media (min-width: 1440px) {
+    .titulo2{
+        margin-left: -180px;
+    }
+  }
+  @media (min-width: 1440px) {
+    .titulo3{
+        margin-left: -180px;
+    }
+  }
+  @media (min-width: 1440px) {
+    .titulo4{
+        margin-left: -180px;
+    }
+  }
+  @media (min-width: 1440px) {
+    .titulo5{
+        margin-left: 50px;
+        font-size: 30px;
+        width: 10px;
+    }
+  }
+  @media (min-width: 1440px) {
+    .titulo6{
+        margin-left: -180px;
+    }
+  }
+  @media (min-width: 1440px) {
+    .titulo7{
+        margin-left: -180px;
+    }
+  }
+  @media (min-width: 1440px) {
+    .titulo8{
+        margin-left: 50px;
+        font-size: 30px;
+        width: 10px;
+    }
+  }
+  @media (min-width: 1440px) {
+    .titulo9{
+        margin-left: -180px;
+    }
+  }
+  @media (min-width: 1440px) {
+    .titulo10{
+        margin-left: -180px;
+    }
+  }
+  @media (min-width: 1440px) {
+    .titulo11{
+        margin-left: 50px;
+    }
+  }
+
+.titulo_cerraduras{
+    color: #fafafa;
+    letter-spacing: 5px;
+
+}
+
+.img_productos_acyntra,
+.img_productos_bronzen,
+.img_productos_candex,
+.img_productos_dac,
+.img_productos_escritorio,
+.img_productos_giaco,
+.img_productos_kallay,
+.img_productos_prive,
+.img_productos_sekur,
+.img_productos_th,
+.img_productos_trabex{
+    margin-top: -60px;
+    padding: 15px;
+    width: 90%;
+    height: 250px;
+}
+
+@media (min-width: 1440px) {
+    .img_productos_acyntra{
+        margin-top: 1px;
+    }
+  }
+
+  @media (min-width: 1440px) {
+    .img_productos_bronzen{
+        margin-top: 1px;
+    }
+  }
+  @media (min-width: 1440px) {
+    .img_productos_candex{
+        margin-top: 1px;
+    }
+  }
+  @media (min-width: 1440px) {
+    .img_productos_dac{
+        margin-top: 1px;
+    }
+  }
+  @media (min-width: 1440px) {
+    .img_productos_escritorio{
+        margin-top: 1px;
+    }
+  }
+  @media (min-width: 1440px) {
+    .img_productos_giaco{
+        margin-top: 1px;
+    }
+  }
+  @media (min-width: 1440px) {
+    .img_productos_kallay{
+        margin-top: 1px;
+    }
+  }
+  @media (min-width: 1440px) {
+    .img_productos_prive{
+        margin-top: 1px;
+    }
+  }
+  @media (min-width: 1440px) {
+    .img_productos_sekur{
+        margin-top: 1px;
+    }
+  }
+  @media (min-width: 1440px) {
+    .img_productos_th{
+        margin-top: 1px;
+    }
+  }
+  @media (min-width: 1440px) {
+    .img_productos_trabex{
+        margin-top: 1px;
+    }
+  }

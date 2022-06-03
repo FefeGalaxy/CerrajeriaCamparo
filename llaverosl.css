@@ -1,0 +1,50 @@
+body{
+    background-color: #161B22;
+}
+
+.container_llaverosl{
+    width: 295px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border: solid #fafafa;
+}
+
+@media (min-width: 1440px) {
+    .container_llaverosl{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        margin: 0 auto;
+        margin-top: 50px;
+        width: 1300px;
+        height: 2300px;
+    }
+  }
+
+.titulo_llaverosl{
+    color: #fafafa;
+    letter-spacing: 5px;
+}
+
+@media (min-width: 1440px) {
+    .titulo_llaverosl{
+        margin-left: 90px;
+        font-size: 30px;
+    }
+  }
+
+.img_productos_llaverosl{
+    margin-top: -60px;
+    padding: 15px;
+    width: 90%;
+    height: 250px;
+}
+
+@media (min-width: 1440px) {
+    .img_productos_llaverosl{
+        margin-top: 50px;
+    }
+  }

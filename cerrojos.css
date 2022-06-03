@@ -1,0 +1,44 @@
+body{
+    background-color: #161B22;
+}
+
+.container_cerrojos{
+    width: 295px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border: solid #fafafa;
+}
+
+@media (min-width: 960px) {
+    .container_cerrojos{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        margin: 0 auto;
+        margin-top: 40px;
+        width: 900px;
+        height: 400px;
+    }
+  }
+
+.titulo_cerrojos{
+    color: #fafafa;
+    letter-spacing: 5px;
+
+}
+
+@media (min-width: 960px) {
+    .titulo_cerrojos{
+        font-size: 30px;
+    }
+  }
+
+.img_productos_cerrojos{
+    margin-top: -60px;
+    padding: 15px;
+    width: 90%;
+    height: 250px;
+}

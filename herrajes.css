@@ -1,0 +1,50 @@
+body{
+    background-color: #161B22;
+}
+
+.container_herrajes{
+    width: 295px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border: solid #fafafa;
+}
+
+@media (min-width: 1440px) {
+    .container_herrajes{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        margin: 0 auto;
+        margin-top: 40px;
+        width: 1300px;
+        height: 1700px;
+    }
+  }
+
+.titulo_herrajes{
+    color: #fafafa;
+    letter-spacing: 5px;
+}
+
+@media (min-width: 1440px) {
+    .titulo_herrajes{
+        margin-left: 70px;
+        font-size: 30px;
+    }
+  }
+
+.img_productos_herrajes{
+    margin-top: -60px;
+    padding: 15px;
+    width: 90%;
+    height: 250px;
+}
+
+@media (min-width: 1440px) {
+    .img_productos_herrajes{
+        margin-top: 10px;
+    }
+  }
