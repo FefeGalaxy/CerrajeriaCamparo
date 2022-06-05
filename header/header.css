@@ -42,9 +42,16 @@
 
 .header_titulo{
     color: #F0F6FC;
-    font-size: 120%;
+    font-size: 100%;
     margin-left: 2%;
     
+}
+
+@media (min-width: 1500px) {
+  .header_titulo{
+    font-size: 130%;
+    margin-top: 20px;
+  }
 }
 
 .header__ventana{

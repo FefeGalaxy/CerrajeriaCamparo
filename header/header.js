@@ -2,7 +2,7 @@ function headerContent(e){
     const headerE = document.createElement("div");
     headerE.innerHTML = `
     <header class="header">
-    <h3 class="header_titulo">CERRAJERIA CAMPARO</h3>
+    <h4 class="header_titulo">CERRAJERIA</h4>
     <div class="header_burger" >
         <img class="header_burger_img" src="img/llaves-burger-img.png" onclick="sound.play()" alt="menu">
     </div>
