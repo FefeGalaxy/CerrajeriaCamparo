@@ -41,9 +41,9 @@
 }
 
 .header_titulo{
-    color: #F0F6FC;
     font-size: 100%;
     margin-left: 2%;
+    opacity: 0;
     
 }
 
