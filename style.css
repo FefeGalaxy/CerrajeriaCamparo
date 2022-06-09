@@ -40,6 +40,12 @@ body {
 }
 
 @media (min-width: 960px) {
+    .section-1_subtitulo{
+        margin-left: 50%;
+    }
+}
+
+@media (min-width: 960px) {
     .section-1_titulo_parrafo{
         margin-left: 50%;
         margin-top: -350px;
@@ -90,6 +96,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 
 @media (min-width: 960px) {
     .section-2_titulo{

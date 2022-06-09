@@ -219,8 +219,10 @@ body{
 .img_productos_trabex{
     margin-top: -60px;
     padding: 15px;
-    width: 90%;
-    height: 250px;
+}
+
+.ipe1{
+  width: 75%;
 }
 
 @media (min-width: 1440px) {

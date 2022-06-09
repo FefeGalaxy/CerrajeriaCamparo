@@ -13,6 +13,10 @@ body{
     border: solid #fafafa;
 }
 
+.ipe1{
+    width: 75%;
+  }
+
 @media (min-width: 1440px) {
     .container_herrajes{
         display: grid;
@@ -39,8 +43,6 @@ body{
 .img_productos_herrajes{
     margin-top: -60px;
     padding: 15px;
-    width: 90%;
-    height: 250px;
 }
 
 @media (min-width: 1440px) {
