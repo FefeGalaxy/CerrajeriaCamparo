@@ -1,4 +1,6 @@
+
 body {
+    font-family: 'Poppins';
     background-color: #202124;
     margin: 0;
     padding: 0;
@@ -11,8 +13,9 @@ body {
 }
 
 .section-1_contenido_img{
+    border-radius: 20px;
     width: 100%;
-    overflow: auto;
+    height: 250px;
 }
 
 @media (min-width: 960px) {
@@ -22,6 +25,34 @@ body {
         margin-top: 20px;
     }
 }
+
+
+.slider ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.carrusel-fotos{
+    display: flex;
+    gap: 10px;
+    overflow: auto;
+}
+
+
+.slider img{
+    width: 370px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+@media (min-width: 960px) {
+    .slider img{
+        width: 500px;
+        height: 300px;
+    }
+}
+
 
 .section-1_titulo_parrafo{
     color: #F0F6FC;

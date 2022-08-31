@@ -43,8 +43,8 @@
 .header_titulo{
     font-size: 100%;
     margin-left: 2%;
-    opacity: 0;
-    
+    opacity: 100%;
+    color: #dbdbdb;
 }
 
 @media (min-width: 1500px) {
