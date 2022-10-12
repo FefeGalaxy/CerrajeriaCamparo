@@ -2,7 +2,7 @@ function headerContent(e){
     const headerE = document.createElement("div");
     headerE.innerHTML = `
     <header class="header">
-    <h1 class="header_titulo">Cerrajeria Camparo</h1>
+    <h1 class="header_titulo">Cerrajeria Camparo🔑</h1>
     <div class="header_burger" >
         <img class="header_burger_img" src="img/llaves-burger-img.png" onclick="sound.play()" alt="menu">
     </div>
@@ -38,11 +38,12 @@ function headerContent(e){
     const ventana = headerE.querySelector(".header__ventana");
        
         botonAbrir.addEventListener("click", ()=>{
-           ventana.style.display = "inherit";
+        ventana.style.display = "inherit";
         });
         botonCerrar.addEventListener("click", ()=>{
            ventana.style.display = "";
         });
         e.appendChild(headerE);
+
 
 }
